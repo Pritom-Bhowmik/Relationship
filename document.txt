@@ -1,0 +1,7 @@
+//Model
+public function get_city()
+    {
+        return $this->belongsTo('App\Category', 'categoryId');
+    }
+//Controller
+DramaSerise::with('get_city')->get();
