@@ -5,3 +5,7 @@ public function get_city()
     }
 //Controller
 DramaSerise::with('get_city')->get();
+
+
+//Blade
+{{ $job->get_city->category_name }}
